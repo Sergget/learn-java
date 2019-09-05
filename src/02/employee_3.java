@@ -1,10 +1,10 @@
-public class employee{
+public class employee_3{
     // 这个实例变量对子类可见
     public String name;
     // 私有变量，仅在该类可见
     private double salary;
     //在构造器中对name赋值
-    public employee (String empName){
+    public employee_3 (String empName){
        name = empName;
     }
     //设定salary的值
@@ -18,7 +18,7 @@ public class employee{
     }
   
     public static void main(String[] args){
-       employee empOne = new employee("RUNOOB");
+       employee_3 empOne = new employee_3("RUNOOB");
        empOne.setSalary(1000);
        empOne.printEmp();
     }
