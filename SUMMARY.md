@@ -20,3 +20,6 @@
   * [5.1 Java_Number&Math类](05.1-Java_Number&Math类.md)
   * [5.2 Java_Character类](05.2-Java_Character类.md)
   * [5.3 Java_String类](05.3-Java_String类.md)
+* [6 Java数组](06-Java数组.md)
+  * [6.1 数组类型](06.1-数组类型.md)
+  * [6.2 遍历数组](06.2-遍历数组.md)
