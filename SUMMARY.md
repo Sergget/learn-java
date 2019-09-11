@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 
-## BASICS
 * [0 开发环境安装与配置](00-开发环境安装与配置.md)
 * [1 java基础语法](01-java基础语法.md)
     * [1.1 附表：java关键字](01.1-附表：java关键字.md)
@@ -16,10 +15,13 @@
   * [4.1 Java循环结构](04.1-Java循环结构.md)
   * [4.2 Java条件语句](04.2-Java条件语句.md)
   * [4.3 输入与输出](04.3-输入与输出.md)
-* [5 Java包装类]()
-  * [5.1 Java_Number&Math类](05.1-Java_Number&Math类.md)
-  * [5.2 Java_Character类](05.2-Java_Character类.md)
-  * [5.3 Java_String类](05.3-Java_String类.md)
+* [5 Java核心类](05-Java核心类.md)
+  * [5.1 Java 包装类](05.1-Java_包装类.md)
+  * [5.2 Java String类](05.2-Java_String类.md)
+  * [5.3 StringBuffer和StringBuilder类](05.3-StringBuffer和StringBuilder类.md)
+  * [5.4 Java枚举类](05.4-Java枚举类.md)
+  * [5.5 Java big number](05.5-Java_big_number.md)
+  * [5.6 Java常用工具类](05.6-Java常用工具类.md)
 * [6 Java数组](06-Java数组.md)
   * [6.1 数组类型](06.1-数组类型.md)
   * [6.2 遍历数组](06.2-遍历数组.md)
