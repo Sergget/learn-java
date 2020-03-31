@@ -32,6 +32,7 @@
   * [5.9 作用域](05_面向对象\05.9-作用域.md)
   * [5.10 classpath和jar](05_面向对象\05.10-classpath和jar.md)
   * [5.11 模块](05_面向对象\05.11-模块.md)
+  * [5.12 JavaBean](05_面向对象\05.12-JavaBean.md)
 * [6 Java核心类](06_Java核心类\06-Java核心类.md)
   * [6.1 Java_包装类](06_Java核心类\06.1-Java_包装类.md)
   * [6.2 Java_String类](06_Java核心类\06.2-Java_String类.md)
