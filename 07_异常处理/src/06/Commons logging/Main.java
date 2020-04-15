@@ -13,6 +13,7 @@ public class Main {
 			"".getBytes("invalidCharsetName");
 		} catch (UnsupportedEncodingException e) {
 			// TODO: 使用log.error(String, Throwable)打印异常
+			log.error("Severe error: ", e);
 		}
 		log.info("Process end.");
 	}
