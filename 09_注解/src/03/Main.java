@@ -1,3 +1,4 @@
+import java.io.File;
 import java.lang.reflect.Field;
 
 public class Main {
@@ -21,7 +22,17 @@ public class Main {
 			Range range = field.getAnnotation(Range.class);
 			if (range != null) {
 				Object value = field.get(person);
-				// TODO:
+				if(value instanceof String){
+					String s = (String) value;
+					if(s.length()<range.min() || s.length()>range.max()){
+						throw new IllegalArgumentException("Invlaid field: "+field.getName());
+					}
+				}else if(value instanceof Integer){
+					int i = (int) value;
+					if(i<range.min()||i>range.max()){
+						throw new IllegalArgumentException("Invalid filed: "+field.getName());
+					}
+				}
 			}
 		}
 	}
