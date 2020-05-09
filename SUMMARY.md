@@ -68,3 +68,4 @@
   * [11.1 使用List](11_集合\11.1-使用List.md)
   * [11.2 编写equals方法](11_集合\11.2-编写equals方法.md)
   * [11.3 使用Map](11_集合\11.3-使用Map.md)
+  * [11.4 编写equals和hashCode](11_集合\11.4-编写equals和hashCode.md)
