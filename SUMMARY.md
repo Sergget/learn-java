@@ -71,3 +71,4 @@
   * [11.4 编写equals和hashCode](11_集合\11.4-编写equals和hashCode.md)
   * [11.5 使用EnumMap](11_集合\11.5-使用EnumMap.md)
   * [11.6 使用TreeMap](11_集合\11.6-使用TreeMap.md)
+  * [11.7 使用properties](11_集合\11.7-使用properties.md)

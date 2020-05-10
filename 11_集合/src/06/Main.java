@@ -15,7 +15,7 @@ public class Main {
         for (Student key : map.keySet()) {
             System.out.println(key);
         }
-        System.out.println(map.get(new Student("Bob", 66))); // null?
+        System.out.println(map.get(new Student("Bob", 66)));
     }
 }
 
