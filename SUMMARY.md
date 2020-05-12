@@ -75,3 +75,4 @@
   * [11.8 使用set](11_集合/11.8-使用set.md)
   * [11.9 使用Queue](11_集合\11.9-使用Queue.md)
   * [11.10 使用PriorityQueue](11_集合\11.10-使用PriorityQueue.md)
+  * [11.11 Deque](11_集合\11.11-Deque.md)
