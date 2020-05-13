@@ -81,3 +81,4 @@
   * [11.14 使用Collections](11_集合/11.14-使用Collections.md)
 * [12 IO](12_IO/12-IO.md)
   * [12.1 File对象](12_IO/12.1-File对象.md)
+  * [12.2 InputStream](12_IO/12.2-InputStream.md)
