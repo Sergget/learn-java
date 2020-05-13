@@ -13,15 +13,13 @@ public class Main1 {
 
     static String toHex(int n) {
         Deque<String> hexStack = new LinkedList<>();
-        String s = "ABCDEF";
+        List<String> hexList= List.of("A","B","C","D","E","F");
         while (n!=0) {
-            if(n%16>9){
-                // hexStack.push(s.get(n%16-9));
-            }else{
-                // hexStack.push(String.valueOf(n%16));
-            }
+            hexStack.push(n%16>9?hexList.get(n%16-10):String.valueOf(n%16));
             n=n/16;
         }
-        return String.valueOf(n);
+        String result="";
+        while(!hexStack.isEmpty()){result=result+hexStack.pop();}
+        return result;
     }
 }
