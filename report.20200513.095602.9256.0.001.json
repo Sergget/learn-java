@@ -1,0 +1,425 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200513.095602.9256.0.001.json",
+    "dumpEventTime": "2020-05-13T09:56:02Z",
+    "dumpEventTimeStamp": "1589334962992",
+    "processId": 9256,
+    "cwd": "F:\\github_lib\\java-tutorial",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Yang Qi\\AppData\\Roaming\\npm\\\\node_modules\\gitbook-cli\\bin\\gitbook.js",
+      "serve"
+    ],
+    "nodejsVersion": "v12.16.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.0",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.0/node-v12.16.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.0/node-v12.16.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 262171,
+        "nice": 0,
+        "sys": 220359,
+        "idle": 8888250,
+        "irq": 38203
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 145203,
+        "nice": 0,
+        "sys": 76593,
+        "idle": 9148703,
+        "irq": 1656
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 471703,
+        "nice": 0,
+        "sys": 177296,
+        "idle": 8721500,
+        "irq": 2703
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 142656,
+        "nice": 0,
+        "sys": 75531,
+        "idle": 9152312,
+        "irq": 1593
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 262546,
+        "nice": 0,
+        "sys": 117250,
+        "idle": 8990703,
+        "irq": 2109
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 152281,
+        "nice": 0,
+        "sys": 106203,
+        "idle": 9112015,
+        "irq": 2031
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 250609,
+        "nice": 0,
+        "sys": 107062,
+        "idle": 9012828,
+        "irq": 2015
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 172906,
+        "nice": 0,
+        "sys": 100296,
+        "idle": 9097296,
+        "irq": 1609
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "以太网",
+        "internal": false,
+        "mac": "18:60:24:8d:31:db",
+        "address": "fe80::bd86:65fb:c451:a294",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 10
+      },
+      {
+        "name": "以太网",
+        "internal": false,
+        "mac": "18:60:24:8d:31:db",
+        "address": "192.168.88.126",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "ZeroTier One [af415e486ff5a88d]",
+        "internal": false,
+        "mac": "8e:e4:a3:aa:84:66",
+        "address": "fe80::acb7:2734:29fd:99b0",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 7
+      },
+      {
+        "name": "ZeroTier One [af415e486ff5a88d]",
+        "internal": false,
+        "mac": "8e:e4:a3:aa:84:66",
+        "address": "10.147.18.210",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "ZDRH-YQ"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6764119f9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff676415e1c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff676414dd8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff67651364b",
+      "symbol": "v8::base::CPU::has_sse+38363"
+    },
+    {
+      "pc": "0x00007ff676d2a11e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff676d121f1",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff676bde74c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff676be99a0",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff676be64c4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff676bdbce3",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff676bda354",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff676bfb53d",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff676960e21",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff677174fad",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x00007ff6770f9713",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+40627"
+    },
+    {
+      "pc": "0x0000011016a479a8",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2178420736,
+    "totalCommittedMemory": 2178420736,
+    "usedMemory": 2137097472,
+    "availableMemory": 46080048,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 26214400,
+        "committedMemory": 26214400,
+        "capacity": 13093200,
+        "used": 1197608,
+        "available": 11895592
+      },
+      "old_space": {
+        "memorySize": 2127446016,
+        "committedMemory": 2127446016,
+        "capacity": 2124216904,
+        "used": 2122520208,
+        "available": 1696696
+      },
+      "code_space": {
+        "memorySize": 2002944,
+        "committedMemory": 2002944,
+        "capacity": 1829696,
+        "used": 1829696,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 12849152,
+        "committedMemory": 12849152,
+        "capacity": 1978880,
+        "used": 1978880,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 9596928,
+        "committedMemory": 9596928,
+        "capacity": 9535488,
+        "used": 9535488,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 13093200,
+        "used": 0,
+        "available": 13093200
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 495.296,
+    "kernelCpuSeconds": 226.421,
+    "cpuConsumptionPercent": 8.81325,
+    "maxRss": 4513714176,
+    "pageFaults": {
+      "IORequired": 4021217,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 21845,
+      "writes": 5826
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=F:": "F:\\github_lib\\java-tutorial",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Yang Qi\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "ZDRH-YQ",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\Yang Qi\\AppData\\Roaming\\npm\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "HOME": "C:\\Users\\Yang Qi",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Yang Qi",
+    "LOCALAPPDATA": "C:\\Users\\Yang Qi\\AppData\\Local",
+    "LOGONSERVER": "\\\\ZDRH-YQ",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "E:\\OneDrive - Tristone Flowtech Czech Republic s.r.o",
+    "OneDriveCommercial": "E:\\OneDrive - Tristone Flowtech Czech Republic s.r.o",
+    "OS": "Windows_NT",
+    "Path": "D:\\python3\\Scripts\\;D:\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ZeroTier\\One\\;C:\\Program Files\\Git\\cmd;%JAVA_HOME%\\bin;%JAVA_HOME%\\jre\\bin;C:\\Program Files\\Calibre2\\;D:\\Nodejs\\;D:\\Java\\bin;C:\\Users\\Yang Qi\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Bandizip\\;D:\\Microsoft VS Code\\bin;C:\\Users\\Yang Qi\\AppData\\Roaming\\npm;C:\\Users\\Yang Qi\\AppData\\Local\\GitHubDesktop\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 9, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e09",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "E:\\Data\\Document\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\YANGQI~1\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\YANGQI~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "ZDRH-YQ",
+    "USERDOMAIN_ROAMINGPROFILE": "ZDRH-YQ",
+    "USERNAME": "Yang Qi",
+    "USERPROFILE": "C:\\Users\\Yang Qi",
+    "windir": "C:\\Windows",
+    "WSLENV": "WT_SESSION::WT_PROFILE_ID",
+    "WT_PROFILE_ID": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "WT_SESSION": "d8fec688-bb0b-4b40-bf33-1af697bdf588",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "D:\\Nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}
