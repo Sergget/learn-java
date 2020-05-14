@@ -82,4 +82,5 @@
 * [12 IO](12_IO/12-IO.md)
   * [12.1 File对象](12_IO/12.1-File对象.md)
   * [12.2 InputStream](12_IO/12.2-InputStream.md)
-  * [12.3 OutputStream](12_IO\12.3-OutputStream.md)
+  * [12.3 OutputStream](12_IO/12.3-OutputStream.md)
+  * [12.4 Filter模式](12_IO/12.4-Filter模式.md)
