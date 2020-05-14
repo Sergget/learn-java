@@ -15,5 +15,6 @@
 
         "headerTemplate": null,
         "footerTemplate": null
-    }
+    },
+    "plugins":["toggle-chapters"]
 }
