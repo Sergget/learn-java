@@ -16,5 +16,5 @@
         "headerTemplate": null,
         "footerTemplate": null
     },
-    "plugins":["toggle-chapters"]
+    "plugins":["chapter-fold"]
 }
