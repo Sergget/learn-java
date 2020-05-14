@@ -21,6 +21,7 @@ public class CopyFile {
 			try(OutputStream output = new FileOutputStream(target)){
 				int n;
 				while((n=input.read())!=-1){
+					// System.out.println((char) n);
 					output.write(n);
 				}
 			}
