@@ -18,13 +18,11 @@ public class CopyFile {
 		// 友情提示：测试时请使用无关紧要的文件
 		// TODO:
 		try(InputStream input = new FileInputStream(source)){
-			byte[] buffer =new byte[1000];
-			int n;
-			while((n=input.read(buffer))!=-1){
-				System.out.println(buffer.toString());
-				// try(OutputStream output =new FileOutputStream(target)){
-				// 	output.write(buffer.toString().getBytes("UTF-8"));
-				// }
+			try(OutputStream output = new FileOutputStream(target)){
+				int n;
+				while((n=input.read())!=-1){
+					output.write(n);
+				}
 			}
 		}
 	}
