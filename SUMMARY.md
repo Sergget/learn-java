@@ -128,3 +128,6 @@
   * [17.5 同步方法](17_多线程/17.5-同步方法.md)
   * [17.6 死锁](17_多线程/17.6-死锁.md)
   * [17.7 使用wait和notify](17_多线程/17.7-使用wait和notify.md)
+  * [17.8 使用ReentrantLock](17_多线程/17.8-使用ReentrantLock.md)
+  * [17.9 使用Condition](17_多线程/17.9-使用Condition.md)
+  * [17.10 使用ReadWriteLock](17_多线程/17.10-使用ReadWriteLock.md)
