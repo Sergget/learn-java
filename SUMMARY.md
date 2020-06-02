@@ -131,3 +131,5 @@
   * [17.8 使用ReentrantLock](17_多线程/17.8-使用ReentrantLock.md)
   * [17.9 使用Condition](17_多线程/17.9-使用Condition.md)
   * [17.10 使用ReadWriteLock](17_多线程/17.10-使用ReadWriteLock.md)
+  * [17.11 使用StampedLock](17_多线程/17.11-使用StampedLock.md)
+  * [17.12 使用Concurrent](17_多线程/17.12-使用Concurrent.md)
