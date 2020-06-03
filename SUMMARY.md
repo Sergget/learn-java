@@ -136,3 +136,7 @@
   * [17.13 使用Atomic](17_多线程/17.13-使用Atomic.md)
   * [17.14 使用线程池](17_多线程/17.14-使用线程池.md)
   * [17.15 使用Future](17_多线程/17.15-使用Future.md)
+  * [17.16 使用CompletableFuture](17_多线程/17.16-使用CompletableFuture.md)
+  * [17.17 使用ForkJoin](17_多线程/17.17-使用ForkJoin.md)
+  * [17.18 使用ThreadLocal](17_多线程/17.18-使用ThreadLocal.md)
+  
