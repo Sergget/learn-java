@@ -139,4 +139,7 @@
   * [17.16 使用CompletableFuture](17_多线程/17.16-使用CompletableFuture.md)
   * [17.17 使用ForkJoin](17_多线程/17.17-使用ForkJoin.md)
   * [17.18 使用ThreadLocal](17_多线程/17.18-使用ThreadLocal.md)
+* [18 Maven基础](18_Maven基础/18.0-Maven基础.md)
+  * [18.1 依赖管理](18_Maven基础/18.1-依赖管理.md)
+  * [18.2 构建流程](18_Maven基础/18.2-构建流程.md)
   
